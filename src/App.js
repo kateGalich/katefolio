@@ -5,6 +5,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img src="KatePro.JPG" className='photo'></img>
+
+        <a href='https://www.linkedin.com/in/kate-galich/' target="_blank">
+          <img src="In-Blue-96.png" className='in-logo'></img>
+        </a>
+      </header>
+      <main className='App-main'>
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +25,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </main>
+
+      <footer>
+
+      </footer>
     </div>
   );
 }
