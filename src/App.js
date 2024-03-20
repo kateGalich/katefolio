@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         </a>
       </header>
       <main className='App-main'>
-
+{/* 
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -24,7 +25,47 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+        <div className="glowing">
+          <span style={{"--i":1}}></span>
+          <span style={{"--i":2}}></span>
+          <span style={{"--i":3}}></span>
+        </div>
+        <div className="glowing">
+          <span style={{"--i":1}}></span>
+          <span style={{"--i":2}}></span>
+          <span style={{"--i":3}}></span>
+        </div>
+        <div className="glowing">
+          <span style={{"--i":1}}></span>
+          <span style={{"--i":2}}></span>
+          <span style={{"--i":3}}></span>
+        </div>
+        <div className="glowing">
+          <span style={{"--i":1}}></span>
+          <span style={{"--i":2}}></span>
+          <span style={{"--i":3}}></span>
+        </div>
+        <div className="glowing">
+          <span style={{"--i":1}}></span>
+          <span style={{"--i":2}}></span>
+          <span style={{"--i":3}}></span>
+        </div>
+        <div className="glowing">
+          <span style={{"--i":1}}></span>
+          <span style={{"--i":2}}></span>
+          <span style={{"--i":3}}></span>
+        </div>
+        <div className="glowing">
+          <span style={{"--i":1}}></span>
+          <span style={{"--i":2}}></span>
+          <span style={{"--i":3}}></span>
+        </div>
+        <div className="glowing">
+          <span style={{"--i":1}}></span>
+          <span style={{"--i":2}}></span>
+          <span style={{"--i":3}}></span>
+        </div>
       </main>
 
       <footer>
